@@ -41,7 +41,7 @@
           </div>
         </v-card-title>
         <v-card-actions>
-          <v-btn outline color="primary" @click="back">back</v-btn>
+          <v-btn outline color="primary" @click="$router.go(-1)">back</v-btn>
         </v-card-actions>
       </v-flex>
     </v-layout>
